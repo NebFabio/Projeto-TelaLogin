@@ -23,7 +23,6 @@
 }
 
 html, body {
-    width: 89vw;
     height: 100vh;
 }
 
@@ -38,7 +37,7 @@ body {
 section {
     position: absolute;
     top: 50%;
-    left: 56%;
+    left: 50%;
     text-align: center;
     overflow: hidden;
     width: 450px;

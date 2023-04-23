@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 :root {
     --fontpoppins: 'Poppins', sans-serif;
     --cor00: #8d8d8da6;
@@ -18,6 +23,7 @@
 }
 
 html, body {
+    width: 100vw;
     height: 100vh;
 }
 
@@ -34,6 +40,7 @@ section {
     top: 50%;
     left: 50%;
     text-align: center;
+    overflow: hidden;
 
     transform: translate(-50%, -50%);
 }

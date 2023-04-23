@@ -8,11 +8,6 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
 :root {
     --fontpoppins: 'Poppins', sans-serif;
     --cor00: #8d8d8da6;
@@ -20,10 +15,6 @@
     --cor02: #8d7575;
     --cor03: white;
 
-}
-
-html, body {
-    height: 100vh;
 }
 
 body {
@@ -48,7 +39,7 @@ section {
 
     font-family: var(--fontpoppins);
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 10%);
 }
 
 form > h1 {

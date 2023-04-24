@@ -63,14 +63,14 @@
     
     #verSenha {
         position: absolute;
-        top: 48%;
-        left: 92%;
+        top: 45%;
+        left: 90%;
     }
 
     #verConfirmSenha {
         position: absolute;
-        top: 62%;
-        left: 92%;
+        top: 57%;
+        left: 90%;
     }
 
     #form p, a {
@@ -108,14 +108,14 @@
 
     #verSenha {
         position: absolute;
-        top: 51%;
-        left: 38%;
+        top: 49%;
+        left: 36%;
     }
 
     #verConfirmSenha {
         position: absolute;
-        top: 65%;
-        left: 38%;
+        top: 62%;
+        left: 36%;
     }
 
     #form a{

@@ -71,9 +71,10 @@ form > input {
 
 #verSenha {
     position: absolute;
-    top: 51%;
-    left: 84%;
+    top: 49%;
+    left: 81%;
     color: var(--cor02);
+    padding: 15px;
     cursor: pointer;
     
     transform: translate(0%, -8%);
@@ -81,10 +82,13 @@ form > input {
 
 #verConfirmSenha {
     position: absolute;
-    top: 65%;
-    left: 84%;
+    padding: 15px;
+    top: 62%;
+    left: 81%;
     color: var(--cor02);
     cursor: pointer;
+
+    transform: translate(0%, 7%);
 }
 
 button#btn {

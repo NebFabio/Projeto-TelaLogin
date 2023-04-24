@@ -25,7 +25,7 @@
     
     section {
         width: 740px;
-        height: 450px;
+        height: 350px;
 
         transition: width .4s, height .4s;
         transition-timing-function: ease;
@@ -36,9 +36,15 @@
         width: 400px;
     }
 
+    #form h1 {
+        padding: 7px;
+        font-size: 1.7em;
+    }
+
     #form input {
-        padding: 12px;
+        padding: 10px;
         margin: 5px;
+        font-size: 0.75em;
     }
 
     button#btn {
@@ -47,7 +53,7 @@
     }
 
     #img {
-        background: url(../images/bg.jpg) center no-repeat;
+        background: url(../images/bg.jpg) left no-repeat;
         background-size: cover;
         width: 340px;
         height: 550px;
@@ -57,14 +63,20 @@
     
     #verSenha {
         position: absolute;
-        top: 50%;
+        top: 48%;
         left: 92%;
     }
 
     #verConfirmSenha {
         position: absolute;
-        top: 63%;
+        top: 62%;
         left: 92%;
+    }
+
+    #form p, a {
+        font-size: .92em;
+        margin-bottom: 0px;
+        padding: 0px;
     }
 
 }

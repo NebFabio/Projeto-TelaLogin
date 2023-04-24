@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/mbft-login.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Login</title>
+    <link rel="stylesheet" href="../css/mbft-login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
     <section>
         <div id="form">
-            <h1>Login</h1>
             <form autocomplete="on" method="post">
-                <input type="text" placeholder="usuário">
-                <i id="versenha" class="fa fa-eye" aria-hidden="true"></i>
-                <input type="password" id="isenha" placeholder="senha">
+                <h1>Login</h1>
+                <input type="text" placeholder="nome" id="inome" required>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                <input type="password" placeholder="senha" id="isenha" required>
             </form>
             <button id="btn">Entrar</button>
-            <p><a href="#">Esqueci a senha</a></p>
-            <p>Não possui cadastro? <a href="#">Faça agora!</a></p>
+            <p id="p1"><a href="#">Esqueci a senha</a></p>
+            <p id="p2">Já possui cadastro? <a href="#">Faça seu login!</a></p>
         </div>
-        <div id="img"></div>
+        <div id="img">
+
+        </div>
     </section>
     <script src="../js/login.js"></script>
 </body>

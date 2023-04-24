@@ -1,4 +1,4 @@
-let btn = document.querySelector('#versenha')
+let btn = document.querySelector('#verSenha')
 
 btn.addEventListener('click', () => {
   let inputSenha = document.querySelector('#isenha')

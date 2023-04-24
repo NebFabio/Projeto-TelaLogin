@@ -21,15 +21,21 @@ btnConfirm.addEventListener('click', () => {
   }
 })
 
+//validação de preenchimento de dados e senhas coincidentes
 function cadastrar() {
   let nome = document.getElementById('inome').value;
   let usu = document.getElementById('iusu').value;
   let senha = document.getElementById('isenha').value;
   let confirmSenha = document.getElementById('iconfirmSenha').value;
-
-  if (nome && usu && senha && confirmSenha != 0) {
-    alert('Cadastrado com sucesso!')
+  
+  if ( senha != confirmSenha) {
+    alert('[ERRO] As senhas não coincidem!!!') 
   } else {
-    alert('Ops, faltando dados...')
-  }
+    if (nome && usu && senha && confirmSenha != 0) {
+      alert('Cadastrado(a)!')
+    } else {
+      alert('Ops, alguns dados precisam serem preenchidos!')
+    }
+  } 
+  
 }

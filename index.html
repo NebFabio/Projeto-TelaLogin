@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/mbft.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
-    <h1>Bem vindo(a)!</h1>
+    <section>
+        <div id="form">
+            <form autocomplete="on">
+                <h1>Sign-up</h1>
+                <input type="text" name="nome" id="inome" placeholder="nome" required>
+                <input type="text" name="usu" id="iusu" placeholder="usuário" required>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                <input type="password" name="senha" id="isenha" placeholder="senha" required>
+                <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                <input type="password" name="confirmSenha" id="iconfirmSenha" placeholder="confirme sua senha" required>
+                
+                
+            </form>
+            <button id="btn" onclick="cadastrar()">Cadastrar</button>
+            <p>Já possui cadastro? <a href="#">Faça seu Login</a></p>
+        </div>
+        <div id="img"></div>
+    </section>
+    <script src="assets/js/cadastro.js"></script>
 </body>
 </html>

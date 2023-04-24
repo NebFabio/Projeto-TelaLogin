@@ -76,6 +76,7 @@ form > input {
     color: var(--cor02);
     cursor: pointer;
     
+    transform: translate(0%, -8%);
 }
 
 #verConfirmSenha {

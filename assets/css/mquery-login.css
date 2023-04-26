@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontpoppins: 'Poppins', sans-serif;
+    --cor00: #8d8d8da6;
+    --cor01: #262626;
+    --cor02: #8d7575;
+    --cor03: white;
+    --cor04: #0000007a;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 650px;
+        height: 400px;
+
+        transition: width .4s, height .4s;
+        transition-timing-function: ease;
+    }
+
+    #form {
+        float: right;
+        width: 350px;
+    }
+
+    #img {
+        float: left;
+        width: 280px;
+        height: 400px;
+    }
+
+    #verSenha {
+        top: 40%;
+        left: 92%;
+    }
+
+    #form p > a {
+        text-decoration: none;
+    }
+
+    #form p > a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        width: 800px;
+        background-color: var(--cor04);
+        
+        transition: width .4s, height .4s;
+        transition-timing-function: ease;
+    }
+
+    #form {
+        float: left;
+        width: 450px;
+    }
+
+    #form h1 {
+        font-size: 2.5em;
+    }
+
+    #form input {
+        width: 400px;
+        padding: 15px;
+    }
+
+    #img {
+        float: right;
+        width: 350px;
+        height: 100%;
+    }
+
+    #verSenha {
+        top: 37%;
+        left: 48%;
+    }
+
+    #btn {
+        width: 200px;
+        padding: 20px;
+        border-radius: 100px;
+    }
+
+    #form p {
+        font-size: 1.2em;
+    }
+
+    #form p > a {
+        text-decoration: none;
+    }
+
+    #form p > a:hover {
+        text-decoration: underline;
+    }
+}

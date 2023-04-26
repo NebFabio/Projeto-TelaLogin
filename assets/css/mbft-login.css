@@ -40,7 +40,10 @@ section {
     overflow: hidden;
     width: 350px;
     height: 500px;
+    
     transform: translate(-50%, -50%);
+    transition: width .4s, height .4s;
+        transition-timing-function: ease;
 }
 
 #form h1 {

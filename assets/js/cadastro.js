@@ -27,15 +27,43 @@ function cadastrar() {
   let usu = document.getElementById('iusu').value;
   let senha = document.getElementById('isenha').value;
   let confirmSenha = document.getElementById('iconfirmSenha').value;
+  let msg = document.getElementById('msg')
   
   if ( senha != confirmSenha) {
-    alert('[ERRO] As senhas não coincidem!!!') 
+    msg.innerHTML = 'As senhas não coincidem!!'
+    msg.style.display = 'block'
   } else {
     if (nome && usu && senha && confirmSenha != 0) {
-      alert('Cadastrado(a)!')
+      msg.innerHTML = 'Cadastrado(a)!'
+      msg.style.display = 'block'
     } else {
-      alert('Ops, alguns dados precisam serem preenchidos!')
+      msg.innerHTML = 'Preencha todos os campos para prosseguir!'
+      msg.style.display = 'block'
     }
   } 
   
 }
+
+/*
+function cadastrar() {
+  let nome = document.getElementById('inome').value;
+  let usu = document.getElementById('iusu').value;
+  let senha = document.getElementById('isenha').value;
+  let confirmSenha = document.getElementById('iconfirmSenha').value;
+  let msg = document.getElementById('msg')
+  
+  if ( senha != confirmSenha) {
+    msg.innerHTML = 'As senhas não coincidem!!'
+    msg.style.display = 'block'
+  } else {
+    if (nome && usu && senha && confirmSenha != 0) {
+      msg.innerHTML = 'Cadastrado(a)!'
+      msg.style.display = 'block'
+    } else {
+      msg.innerHTML = 'Preencha todos os campos para prosseguir!'
+      msg.style.display = 'block'
+    }
+  } 
+  
+}
+ */

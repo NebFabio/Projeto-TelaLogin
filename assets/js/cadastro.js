@@ -32,38 +32,41 @@ function cadastrar() {
   if ( senha != confirmSenha) {
     msg.innerHTML = 'As senhas não coincidem!!'
     msg.style.display = 'block'
+    msg.style.color = 'black'
+    msg.style.backgroundColor = 'rgba(255, 0, 0, 0.500)'
   } else {
     if (nome && usu && senha && confirmSenha != 0) {
       msg.innerHTML = 'Cadastrado(a)!'
       msg.style.display = 'block'
+      msg.style.backgroundColor = 'rgba(0, 255, 0, 0.200)'
     } else {
       msg.innerHTML = 'Preencha todos os campos para prosseguir!'
       msg.style.display = 'block'
+      msg.style.color = 'black'
+      msg.style.backgroundColor = 'rgba(255, 0, 0, 0.500)'
     }
   } 
+
   
 }
 
 /*
-function cadastrar() {
-  let nome = document.getElementById('inome').value;
-  let usu = document.getElementById('iusu').value;
-  let senha = document.getElementById('isenha').value;
-  let confirmSenha = document.getElementById('iconfirmSenha').value;
-  let msg = document.getElementById('msg')
-  
-  if ( senha != confirmSenha) {
+colinha caso der merd4 o codigo
+if ( senha != confirmSenha) {
     msg.innerHTML = 'As senhas não coincidem!!'
     msg.style.display = 'block'
+    msg.style.color = 'black'
+    msg.style.backgroundColor = 'rgba(255, 0, 0, 0.500)'
   } else {
     if (nome && usu && senha && confirmSenha != 0) {
       msg.innerHTML = 'Cadastrado(a)!'
       msg.style.display = 'block'
+      msg.style.backgroundColor = 'rgba(0, 255, 0, 0.200)'
     } else {
       msg.innerHTML = 'Preencha todos os campos para prosseguir!'
       msg.style.display = 'block'
+      msg.style.color = 'black'
+      msg.style.backgroundColor = 'rgba(255, 0, 0, 0.500)'
     }
   } 
-  
-}
  */

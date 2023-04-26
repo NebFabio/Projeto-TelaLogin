@@ -56,7 +56,7 @@
 @media screen and (min-width: 992px) {
     section {
         width: 800px;
-        background-color: var(--cor02);
+        background-color: var(--cor00);
         
         transition: width .4s, height .4s;
         transition-timing-function: ease;

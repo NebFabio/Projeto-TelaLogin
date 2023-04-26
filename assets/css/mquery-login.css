@@ -39,6 +39,7 @@
     }
 
     #verSenha {
+        color: var(--cor02);
         top: 40%;
         left: 92%;
     }
@@ -55,7 +56,7 @@
 @media screen and (min-width: 992px) {
     section {
         width: 800px;
-        background-color: var(--cor04);
+        background-color: var(--cor02);
         
         transition: width .4s, height .4s;
         transition-timing-function: ease;
@@ -82,6 +83,7 @@
     }
 
     #verSenha {
+        color: var(--cor02);
         top: 37%;
         left: 48%;
     }
@@ -93,7 +95,7 @@
     }
 
     #form p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     #form p > a {

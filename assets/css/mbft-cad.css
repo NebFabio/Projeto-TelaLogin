@@ -52,7 +52,7 @@ section {
 
 #msg {
     padding: 0px 10px;
-    width: 390px;
+    width: 100%;
     color: red;
     text-align: center;
 }

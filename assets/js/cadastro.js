@@ -36,7 +36,7 @@ function cadastrar() {
     msg.style.backgroundColor = 'rgba(255, 0, 0, 0.500)'
   } else {
     if (nome && usu && senha && confirmSenha != 0) {
-      msg.innerHTML = 'Cadastrado(a)!'
+      msg.innerHTML = 'Success!'
       msg.style.display = 'block'
       msg.style.backgroundColor = 'rgba(0, 255, 0, 0.200)'
     } else {

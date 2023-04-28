@@ -40,7 +40,7 @@
 
     #verSenha {
         color: var(--cor02);
-        top: 40%;
+        top: 46%;
         left: 92%;
     }
 
@@ -51,9 +51,42 @@
     #form p > a:hover {
         text-decoration: underline;
     }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48;
+        position: absolute;
+        top: 29%;
+        left: 91%;
+        color: var(--cor04);
+      }
+
+      .material-symbols-rounded {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48;
+        position: absolute;
+        top: 62%;
+        left: 78%;
+        transform: translate(0, -3px);
+        color: var(--cor02);
+      }
+
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        background: url(../images/bgblur.png) center no-repeat;
+        background-size: cover;
+
+        animation: bg 20s ease infinite;
+    }
+    
     section {
         width: 800px;
         background-color: var(--cor00);
@@ -84,7 +117,7 @@
 
     #verSenha {
         color: var(--cor02);
-        top: 37%;
+        top: 42%;
         left: 48%;
     }
 
@@ -103,5 +136,49 @@
 
     #form p > a:hover {
         text-decoration: underline;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48;
+        position: absolute;
+        top: 26%;
+        left: 47%;
+        color: var(--cor04);
+        transform: translate(5px);
+      }
+
+      .material-symbols-rounded {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48;
+        position: absolute;
+        top: 58%;
+        left: 32%;
+        transform: translate(0, -3px);
+        color: var(--cor02);
+      }
+
+    @keyframes bg {
+        0% {
+            background-position: top;
+        }
+        25% {
+            background-position: center;
+        }
+        50% {
+            background-position: bottom;
+        }
+        75% {
+            background-position: center;
+        }
+        100% {
+            background-position: top;
+        }
     }
 }

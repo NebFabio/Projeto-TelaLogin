@@ -64,7 +64,7 @@ section {
 #form input:focus {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.514);
     border-style: none;
-    transition: ease .5s;
+    transition: ease .9s;
 }
 
 form > h1 {
@@ -125,7 +125,7 @@ button#btn:hover {
     box-shadow: inset 250px 0 0 0 var(--cor01);
     color: white;
 
-    transition: ease-in 200ms;
+    transition: ease-in .7s;
 }
 
 #form > p {
@@ -134,9 +134,28 @@ button#btn:hover {
 
 #form p,a {
     color: var(--cor03);
-    text-decoration: none;
 }
 
-#form a {
-    text-decoration: underline;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48;
+  position: absolute;
+  top: 24%;
+  left: 84%;
+  color: var(--cor02);
+}
+
+.account_circle {
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48;
+  position: absolute;
+  top: 38%;
+  left: 84%;
+  color: var(--cor02);
 }

@@ -14,9 +14,9 @@
     --cor01: #262626;
     --cor02: #8d7575;
     --cor03: white;
-
 }
 
+/*telas médias*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background: url(../images/bgblur.png) center no-repeat;
@@ -109,12 +109,13 @@
 
 }
 
+/*telas grandes*/
 @media screen and (min-width: 992px) {
     body {
         background: url(../images/bgblur.png) center no-repeat;
         background-size: cover;
 
-        animation: bg 15s ease-in-out infinite;
+        animation: bg 20s ease infinite;
     }
     
     section {
@@ -180,20 +181,20 @@
         color: var(--cor02);
       }
 
-      @keyframes bg {
-        0% {
+    @keyframes bg {
+        0%{
             background-position: top;
         }
         25% {
             background-position: center;
         }
-        50% {
+        50%{
             background-position: bottom;
         }
-        75% {
+        75%{
             background-position: center;
         }
-        100% {
+        100%{
             background-position: top;
         }
     }
